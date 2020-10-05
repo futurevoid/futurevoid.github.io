@@ -1,0 +1,18 @@
+#title{
+    font-size:200%;
+    text-align:center;
+    color:blue;
+    font-weight:bolder;
+    font-style:italic;
+}
+.credits{
+    font-size:175%;
+    color:blue;
+    font-weight: bold;
+    
+
+}
+body{
+    background-color:#5c6e80;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
