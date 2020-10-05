@@ -30,6 +30,9 @@ body{
     overflow-x: hidden;
 }
 
+.headerimage {
+    margin: 10px;
+}
 
 .headerstyle {
     background-color:#424f5c;
