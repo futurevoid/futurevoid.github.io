@@ -17,37 +17,37 @@ body{
     text-align: center;
 }
 
+
+
+
+
+/* the code below is entirely for the header of the pages dont touch */
 * {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 
-header, nav {
+
+.headerstyle {
     background-color:#424f5c;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: auto;
     text-align: center;
-    padding: 10px;
 }
 
-a {
+
+.links {
     text-decoration: none;
     color: white;
-    padding: 10px;
-    display: inline-block;
 }
 
-.active {
-    padding-left: 0;
-}
 
 a, .dropdown {
     display: inline-block;
-    width: 100px;
-    padding: 15px;
+    width: auto;
     
 }
 
@@ -66,8 +66,8 @@ a, .dropdown {
     color: whitesmoke;
     text-align: center;
     left: 50%;
-  right: auto;
-  transform: translateX(-50%);
+    right: auto;
+    transform: translateX(-50%);
 }
 
 .dropdown-content a {
