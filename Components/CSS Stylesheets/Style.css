@@ -72,6 +72,9 @@ a, .dropdown {
     margin: 10px;
     
 }
+.dropbutton:hover {
+    transform: rotate(180deg);
+  }
 .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
