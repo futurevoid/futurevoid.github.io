@@ -31,7 +31,18 @@ body{
 }
 .headerimage {
     margin: 10px;
+    text-align: center;
 }
+
+.MainPageLogo {
+    padding: 50px;
+}
+
+.logoleft {
+    float: left;
+    margin: 15px;
+}
+
 .headerstyle {
     background-color:#424f5c;
     color: whitesmoke;
@@ -40,15 +51,18 @@ body{
     height: auto;
     text-align: center;
 }
+
 .links {
     text-decoration: none;
     color: white;
 }
+
 a, .dropdown {
     display: inline-block;
     width: auto;
     
 }
+
 .dropdown .dropbutton {
     border: black;
     outline: none;
@@ -56,6 +70,7 @@ a, .dropdown {
     background-color: inherit;
     font-size: inherit;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -66,15 +81,18 @@ a, .dropdown {
     right: auto;
     transform: translateX(-50%);
 }
+
 .dropdown-content a {
     float: center;
     padding: 25px;
     margin: 10px;
     
 }
+
 .dropbutton:hover {
     transform: rotate(180deg);
-  }
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
