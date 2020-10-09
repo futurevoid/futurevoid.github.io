@@ -38,10 +38,7 @@ body{
     padding: 50px;
 }
 
-.logoleft {
-    float: left;
-    margin: 15px;
-}
+
 
 .headerstyle {
     background-color:#424f5c;
@@ -98,4 +95,50 @@ a, .dropdown {
     position: absolute;
     width: auto;
     text-align: auto;
+}
+
+
+/* here is everything related to the Main page introduction banner style and maybe for other products as well */
+
+.logoleft {
+    float: left;
+    margin: 15px;
+    border: 20px;
+    word-break: break-all;
+    
+}
+
+.dropdown-intro {
+    border: black;
+    outline: none;
+    color: inherit;
+    /*background-color: #495c6e;*/
+    font-size: inherit;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.dropdown-intro-content {
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: inherit;
+    /*background-color: #495c6e;*/
+    color: whitesmoke;
+    text-align: center;
+    left: 50%;
+    right: auto;
+    transform: translateX(-70%);
+    padding: 7px;
+}
+
+.dropdown-intro:hover .dropdown-intro-content  {
+    display: block;
+    position: absolute;
+    width: 50%;
+    text-align: auto;
+}
+
+.links-intro {
+    text-decoration: none;
+    color: yellowgreen;
 }
