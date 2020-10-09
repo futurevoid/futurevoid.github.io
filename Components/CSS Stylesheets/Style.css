@@ -34,6 +34,7 @@ body{
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 .MainPageLogo {
     padding: 50px;
 }
@@ -43,6 +44,12 @@ body{
     margin: 15px;
 }
 
+=======
+.logoleft {
+    text-align: left;
+}
+
+>>>>>>> Stashed changes
 .headerstyle {
     background-color:#424f5c;
     color: whitesmoke;
