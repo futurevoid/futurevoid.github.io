@@ -6,8 +6,10 @@
     font-style:italic;
 }
 body{
-    background-color:#5c6e80;
+    /*background-color:#5c6e80;*/
+    background-image: url("../Pictures/BackgroundImage.jpg");
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
 }
 
 .credits{
@@ -41,7 +43,7 @@ body{
 
 
 .headerstyle {
-    background-color:#424f5c;
+    background-image: url("../Pictures/BackgroundImage.jpg");
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
@@ -71,7 +73,6 @@ a, .dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #424f5c;
     color: whitesmoke;
     text-align: center;
     left: 50%;
@@ -141,4 +142,8 @@ a, .dropdown {
 .links-intro {
     text-decoration: none;
     color: yellowgreen;
+}
+
+.div-pack-for-style {
+    margin: 20px;
 }
