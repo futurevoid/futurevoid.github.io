@@ -9,9 +9,10 @@ body{
     /*background-color:#5c6e80;*/
     background-image: url("../Pictures/BackgroundImage.jpg");
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    color: whitesmoke;
+}    
 
-.credits{
+.credits {
     font-size:175%;
     color:whitesmoke;
     font-weight: bold;
