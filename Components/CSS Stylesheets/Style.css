@@ -9,12 +9,11 @@ body{
     /*background-color:#5c6e80;*/
     background-image: url("../Pictures/BackgroundImage.jpg");
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:whitesmoke;
 }
 
 .credits{
     font-size:175%;
-    color:white;
+    color:whitesmoke;
     font-weight: bold;
     text-align: center;
 }
@@ -23,14 +22,28 @@ body{
     color:rgb(145, 207, 126);
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+.div-pack-for-style {
+    margin: 20px;
+    color: whitesmoke;
+}
+
+nav.floattext {
+    float: right;
+}
 
 
 /* the code below is entirely for the header of the pages dont touch */
-* {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
+
 .headerimage {
     margin: 10px;
     text-align: center;
@@ -39,8 +52,6 @@ body{
 .MainPageLogo {
     padding: 50px;
 }
-
-
 
 .headerstyle {
     background-image: url("../Pictures/BackgroundImage.jpg");
@@ -54,9 +65,11 @@ body{
 .links {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    width: auto;
 }
 
-a, .dropdown {
+.dropdown {
     display: inline-block;
     width: auto;
     
@@ -144,6 +157,4 @@ a, .dropdown {
     color: yellowgreen;
 }
 
-.div-pack-for-style {
-    margin: 20px;
-}
+
