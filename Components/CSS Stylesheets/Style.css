@@ -38,7 +38,7 @@ body{
     color: whitesmoke;
 }
 
-nav.floattext {
+.floattext {
     float: right;
 }
 
