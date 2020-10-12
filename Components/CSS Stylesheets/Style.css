@@ -44,7 +44,7 @@ body{
 
 .kewaibot {
     width: 70%;
-    
+    font-weight: bolder;
 
 }
 
@@ -54,10 +54,6 @@ body{
     padding: 15px;
 }
 
-.zglasses {
-    width: 48%;
-    font-weight: bolder;
-}
 
 /* the code below is entirely for the header of the pages dont touch */
 
@@ -156,7 +152,7 @@ body{
     /*background-color: #495c6e;*/
     color: whitesmoke;
     text-align: center;
-    left: 53%;
+    left: 51%;
     right: auto;
     transform: translateX(-70%);
     padding: 7px;
