@@ -99,7 +99,7 @@ body{
     text-align: center;
     left: 48%;
     right: auto;
-    transform: translateX(-50%);
+    transform: translateX(-45%);
 }
 
 .dropdown-content a {
