@@ -97,7 +97,7 @@ body{
     position: absolute;
     color: whitesmoke;
     text-align: center;
-    left: 50%;
+    left: 48%;
     right: auto;
     transform: translateX(-50%);
 }
