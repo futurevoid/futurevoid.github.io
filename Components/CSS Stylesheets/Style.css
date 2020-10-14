@@ -97,9 +97,9 @@ body{
     position: absolute;
     color: whitesmoke;
     text-align: center;
-    left: 48%;
+    left: 50%;
     right: auto;
-    transform: translateX(-45%);
+    transform: translateX(-50%);
 }
 
 .dropdown-content a {
