@@ -34,6 +34,10 @@ body{
     float: right;
 }
 
+.floattextleft {
+    float: left;
+}
+
 .kewaibot {
     width: 70%;
     font-weight: bolder;
@@ -195,3 +199,4 @@ body{
     text-align: center;
     font-size: 35px;
 }    
+
