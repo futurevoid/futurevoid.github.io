@@ -50,7 +50,12 @@ body{
     width: 45%;
     font-weight: bolder;
 }
-
+.FLYX1{text-align: right;}
+.FLYX{text-align: center;}
+.SPX1{text-align:right}
+.SPX{text-align: center}
+.comparison{text-align: center;}
+.ZTR{text-align: right}
 /* the code below is entirely for the header of the pages dont touch */
 
 .headerimage {
